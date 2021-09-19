@@ -1,0 +1,30 @@
+body{
+	background-color:skyblue;
+	overflow-x:hidden;
+}
+.section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: inline;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.section p {
+  font-size: 25px;
+  font-family: "Cookie";
+  padding: 20px;
+  margin: 15px;
+  z-index: 1;
+  color:black;
+  font-family: Impact, fantasy;
+}
+.video1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.4;
+}
